@@ -42,7 +42,7 @@ These events can be used to create custom audiences and retarget website visitor
 Clone the repository:
 
 ```bash
-https://github.com/mintusikder/msacademy
+git clone https://github.com/mintusikder/msacademy.git
 ```
 
 Go to the project directory:
