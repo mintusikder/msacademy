@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 🔥 Title -->
+    <title>MS Academy - Premium Trading Community</title>
+
+    <!-- 🔥 Favicon -->
+    <link rel="icon" type="image/png" href="/SMC.png" />
+
+    <!-- 🔥 Google Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 🔥 Meta Description (SEO) -->
+    <meta
+      name="description"
+      content="MS Academy - Free Forex Signals, Market Analysis & Trading Guidance on Telegram."
+    />
+
+    <!-- 🔥 Open Graph (Social Share) -->
+    <meta property="og:title" content="MS Academy - Trading Community" />
+    <meta
+      property="og:description"
+      content="Join free Forex signals, market updates and trading guidance."
+    />
+    <meta property="og:image" content="/SMC.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- ✅ Meta Pixel -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+
+        n.push = n;
+        n.loaded = true;
+        n.version = "2.0";
+        n.queue = [];
+
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+
+      fbq("init", "1318728090391119");
+      fbq("track", "PageView");
+    </script>
+    <!-- ✅ End Meta Pixel -->
+  </head>
+
+  <body style="margin:0; font-family:Poppins, sans-serif; background:#0f172a;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- React Root -->
+    <div id="root"></div>
+
+    <!-- Main App -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
