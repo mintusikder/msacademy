@@ -1,16 +1,101 @@
-# React + Vite
+# 🚀 MS Academy Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React** for **MS Academy**. This landing page is designed to convert Facebook ad traffic into Telegram community members by showcasing a free Forex indicator, trading resources, and a clear call-to-action.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Website:** https://msacademy01.web.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎁 Free Forex Indicator Promotion
+* 📱 Direct Telegram Join Button
+* 📈 Trading Features Section
+* 💎 Modern Glassmorphism UI
+* ✨ Animated Call-to-Action Button
+* 📱 Fully Responsive Design
+* ⚡ Fast Performance
+* 📊 Meta Pixel Event Tracking
+* 🎯 Facebook Ads Optimized Landing Page
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS
+* React Icons
+* Firebase Hosting
+* Meta Pixel
+
+## 📊 Meta Pixel Events
+
+This project tracks important user interactions for Facebook Ads optimization.
+
+* `PageView`
+* `Lead`
+* `TelegramClick` (Custom Event)
+
+These events can be used to create custom audiences and retarget website visitors.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/ms-academy-landing-page.git
+```
+
+Go to the project directory:
+
+```bash
+cd ms-academy-landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    └── Hero.jsx
+ ├── assets/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+## 🎯 Project Goal
+
+The primary goal of this landing page is to:
+
+* Convert Facebook Ad traffic into Telegram members.
+* Promote a free Forex indicator.
+* Build trust using a professional landing page.
+* Improve conversion rates with Meta Pixel tracking.
+
+## 📞 Contact
+
+**MS Academy**
+
+Website: https://msacademy01.web.app/
+
+---
+
+⭐ If you like this project, don't forget to give it a star on GitHub!
