@@ -90,12 +90,6 @@ The primary goal of this landing page is to:
 * Build trust using a professional landing page.
 * Improve conversion rates with Meta Pixel tracking.
 
-## 📞 Contact
-
-**MS Academy**
-
-Website: https://msacademy01.web.app/
-
 ---
 
 ⭐ If you like this project, don't forget to give it a star on GitHub!
