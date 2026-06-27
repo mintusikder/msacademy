@@ -42,13 +42,13 @@ These events can be used to create custom audiences and retarget website visitor
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/ms-academy-landing-page.git
+https://github.com/mintusikder/msacademy
 ```
 
 Go to the project directory:
 
 ```bash
-cd ms-academy-landing-page
+cd msacademy
 ```
 
 Install dependencies:
