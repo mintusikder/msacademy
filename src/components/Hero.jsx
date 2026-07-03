@@ -10,7 +10,7 @@ const Hero = () => {
     brand: "Premium Trading Community",
     title: "MS Academy",
     subtitle:
-      "🎁 ফ্রি ইন্ডিকেটর পেতে আজই আমাদের Official Telegram Group-এ Join করুন! 🚀",
+      "MS Academy এর সাথে শুরু করুন আপনার Professional Trading Journey। নিয়মিত Market Analysis, Trading Tips এবং Premium Support পেতে আজই আমাদের Telegram Community-তে যুক্ত হোন।",
 
     telegramLink: "https://t.me/msacademy025",
 
@@ -217,4 +217,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero;  
