@@ -1,7 +1,8 @@
 import React from "react";
 const data = {
   title: "MS Academy",
-  subtitle: `🎓 ১৬টি সম্পূর্ণ ফ্রি Live SMC Forex Trading Class — Beginner থেকে Advanced পর্যন্ত ধাপে ধাপে শিখুন।
+  subtitle: `🎓 ১৬টি সম্পূর্ণ ফ্রি Live SMC Forex Trading Class
+Beginner থেকে Advanced পর্যন্ত ধাপে ধাপে Smart Money Concept (SMC) শিখুন।
 `,
 };
 const TitleText = () => {
