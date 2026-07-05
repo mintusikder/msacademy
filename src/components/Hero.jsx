@@ -9,8 +9,14 @@ const Hero = () => {
   const data = {
     brand: "Premium Trading Community",
     title: "MS Academy",
-    subtitle:
-      "MS Academy এর সাথে শুরু করুন আপনার Professional Trading Journey। নিয়মিত Market Analysis, Trading Tips এবং Premium Support পেতে আজই আমাদের Telegram Community-তে যুক্ত হোন।",
+ subtitle: `🎓 Free Forex Trading Class
+
+শূন্য থেকে Professional Trading শেখার জন্য সম্পূর্ণ ফ্রি ক্লাস।
+
+✅ Live Market Analysis
+✅ Risk Management
+✅ Entry & Exit Strategy
+✅ Free Support`,
 
     telegramLink: "https://t.me/msacademy025",
 
@@ -22,10 +28,17 @@ const Hero = () => {
     ],
   };
   const handleTelegram = () => {
-    window.fbq?.("track", "Lead");
-    window.fbq?.("trackCustom", "TelegramClick");
+    if (window.fbq) {
+      window.fbq("track", "Lead");
 
-    window.open(data.telegramLink, "_blank", "noopener,noreferrer");
+      window.fbq("trackCustom", "TelegramClick", {
+        button: "Hero Join Button",
+      });
+    }
+
+    setTimeout(() => {
+      window.open(data.telegramLink, "_blank", "noopener,noreferrer");
+    }, 300);
   };
   return (
     <>
@@ -150,7 +163,7 @@ const Hero = () => {
             }}
           >
             <FaTelegramPlane />
-            JOIN TELEGRAM
+            Get Free Class
           </button>
 
           {/* INFO TEXT */}
@@ -217,4 +230,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;  
+export default Hero;
