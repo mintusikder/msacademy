@@ -1,34 +1,18 @@
 import React from "react";
+
 const data = {
   title: "MS Academy",
-  subtitle: `🎓 ১৬টি সম্পূর্ণ ফ্রি Live SMC Forex Trading Class
-Beginner থেকে Advanced পর্যন্ত ধাপে ধাপে Smart Money Concept (SMC) শিখুন।
-`,
+  subtitle: `🎁 ইন্ডিকেটর পেতে আজই আমাদের Official Telegram Group-এ Join করুন!`,
 };
+
 const TitleText = () => {
   return (
     <>
-      <h1
-        style={{
-          color: "#FFD700",
-          fontSize: "2.2rem",
-          fontWeight: "700",
-        }}
-      >
+      <h1 className="text-[#FFD700] text-3xl md:text-4xl font-bold">
         {data.title}
       </h1>
 
-      {/* Subtitle */}
-      <p
-        style={{
-          whiteSpace: "pre-line",
-          fontSize: "18px",
-          lineHeight: "1.8",
-          marginTop: "20px",
-          marginBottom: "30px",
-          fontWeight: "600",
-        }}
-      >
+      <p className="mt-3 mb-3 whitespace-pre-line text-base md:text-lg leading-8 font-semibold text-white">
         {data.subtitle}
       </p>
     </>

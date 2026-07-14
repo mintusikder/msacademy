@@ -1,75 +1,35 @@
 import { FaTelegramPlane } from "react-icons/fa";
 
-const TelegramClick = "https://t.me/msacademy025";
+const telegramLink = "https://t.me/msacademy025";
 
 const Button = () => {
   const handleTelegram = () => {
-    if (typeof window.fbq === "function") {
+    // Check if Lead event already sent
+    const leadTracked = localStorage.getItem("leadTracked");
+
+    if (!leadTracked && typeof window.fbq === "function") {
       window.fbq("track", "Lead");
 
-      // window.fbq("trackCustom", "TelegramClick", {
-      //   destination: "Telegram",
-      // });
+      // Save so it won't fire again
+      localStorage.setItem("leadTracked", "true");
     }
 
     setTimeout(() => {
-      window.open("https://t.me/msacademy025", "_blank", "noopener,noreferrer");
+      window.open(telegramLink, "_blank", "noopener,noreferrer");
     }, 300);
   };
 
   return (
     <>
-      <style>{`
-        @keyframes pulseGlow {
-          0% {
-            transform: scale(1);
-            box-shadow: 0 10px 25px rgba(34,197,94,.25);
-          }
 
-          50% {
-            transform: scale(1.08);
-            box-shadow:
-              0 15px 40px rgba(34,197,94,.7),
-              0 0 30px rgba(34,197,94,.6);
-          }
 
-          100% {
-            transform: scale(1);
-            box-shadow: 0 10px 25px rgba(34,197,94,.25);
-          }
-        }
-
-        .telegram-btn {
-          background: linear-gradient(90deg,#22c55e,#16a34a);
-          color: white;
-          border: none;
-          border-radius: 12px;
-          padding: 16px 40px;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 10px;
-          cursor: pointer;
-          font-size: 18px;
-          font-weight: 700;
-          animation: pulseGlow 2s infinite;
-          transition: all .3s ease;
-        }
-
-        .telegram-btn:hover {
-          transform: translateY(-3px) scale(1.05);
-          filter: brightness(1.1);
-        }
-
-        .telegram-btn:active {
-          transform: scale(.97);
-        }
-      `}</style>
-
-      <button onClick={handleTelegram} className="telegram-btn">
-        <FaTelegramPlane size={20} />
-        Get Free Class
-      </button>
+ <button
+  onClick={handleTelegram}
+  className="telegram-btn w-full max-w-[320px] px-6 py-3 md:px-10 md:py-4 text-base md:text-lg font-bold rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white flex items-center justify-center gap-2"
+>
+  <FaTelegramPlane className="text-xl  md:text-2xl" />
+  Join Telegram
+</button>
     </>
   );
 };

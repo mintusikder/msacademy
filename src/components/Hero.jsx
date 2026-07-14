@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Modules from "./Modules";
 import Button from "./Button";
 import TitleText from "./TitleText";
+import Slider from "./Slider";
 
 const Hero = () => {
   return (
@@ -34,7 +35,7 @@ const Hero = () => {
           }}
         >
           {/* Logo */}
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <img
               src="/SMC.png"
               alt="MS Academy"
@@ -48,7 +49,7 @@ const Hero = () => {
                 marginBottom: "20px",
               }}
             />
-          </div>
+          </div> */}
 
           {/* Title */}
           <TitleText></TitleText>
@@ -64,10 +65,10 @@ const Hero = () => {
           >
             Click the button above to join our Official Telegram Group.
           </p>
-
+          <Slider></Slider>
           {/* Modules */}
-
-          <Modules></Modules>
+          <Button></Button>
+          {/* <Modules></Modules> */}
 
           {/* Features */}
           <Features />
