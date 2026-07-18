@@ -20,17 +20,15 @@ const Button = () => {
   };
 
   return (
-    <>
-
-
- <button
-  onClick={handleTelegram}
-  className="telegram-btn w-full max-w-[320px] px-6 py-3 md:px-10 md:py-4 text-base md:text-lg font-bold rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white flex items-center justify-center gap-2"
->
-  <FaTelegramPlane className="text-xl  md:text-2xl" />
-  Join Telegram
-</button>
-    </>
+    <div className="flex justify-center items-center mt-4">
+      <button
+        onClick={handleTelegram}
+        className="telegram-btn w-full max-w-[320px] px-6 py-3 md:px-10 md:py-4 text-base md:text-lg font-bold rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white flex items-center justify-center gap-2"
+      >
+        <FaTelegramPlane className="text-xl  md:text-2xl" />
+        Get SMC Indicator
+      </button>
+    </div>
   );
 };
 

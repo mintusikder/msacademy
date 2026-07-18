@@ -2,8 +2,12 @@ import React from "react";
 
 const data = {
   title: "MS Academy",
-  subtitle: `🎁 ইন্ডিকেটর পেতে আজই আমাদের Official Telegram Group-এ Join করুন!`,
+  subtitle: `🎁 Professional SMC Indicator দিয়ে Real Market Analysis করুন, Trading Skill উন্নত করুন এবং আরও আত্মবিশ্বাসের সাথে প্রতিটি Trade নিন।`,
 };
+
+//   subtitle: `🎁 ইন্ডিকেটর পেতে আজই আমাদের Official Telegram Group-এ Join করুন!`,
+//   subtitle: `🎁 Daily Profits • Weekly Growth
+  // 💰 Earn Up to $200+ Daily`,
 
 const TitleText = () => {
   return (

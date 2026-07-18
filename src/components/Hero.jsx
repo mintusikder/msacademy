@@ -63,7 +63,7 @@ const Hero = () => {
               fontSize: "14px",
             }}
           >
-            Click the button above to join our Official Telegram Group.
+          Real Market-এ Indicator-এর Accuracy নিজেই যাচাই করুন।
           </p>
           <Slider></Slider>
           {/* Modules */}

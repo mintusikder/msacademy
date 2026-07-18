@@ -6,6 +6,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const images = [
+  "/slider/10.png",
+  "/slider/9.png",
   "/slider/8.png",
   "/slider/7.png",
   "/slider/6.png",
@@ -20,7 +22,7 @@ export default function Slider() {
   return (
     <section className="w-full max-w-5xl mx-auto">
       <h2 className="text-2xl md:text-3xl font-bold text-center text-yellow-400 mb-5">
-        🎯Indicator Accuracy
+        🎯Recent Trading Results
       </h2>
 
       <Swiper
